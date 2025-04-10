@@ -1,0 +1,50 @@
+.info-card {
+    width: 30%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    margin: 1rem;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .info-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .info-overlay h5 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    opacity: 0.8;
+  }
+  
+  .info-overlay h2 {
+    font-size: 2.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .info-overlay button {
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+  }
+  
+  .info-overlay button:hover {
+    background-color: white;
+    color: black;
+  }
+  

@@ -1,0 +1,48 @@
+body,html,#root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bugatti-navbar {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    position: fixed;    
+    z-index: 1000;
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-left a,
+  .navbar-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+  }
+  
+  .navbar-left a:hover,
+  .navbar-right a:hover {
+    color: gray;
+  }
+  
+  .navbar-center {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }

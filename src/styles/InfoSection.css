@@ -1,0 +1,8 @@
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2rem;
+    background-color: black;
+    flex-wrap: wrap;
+  }  

@@ -1,0 +1,6 @@
+.live-card-section{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: black;
+}
